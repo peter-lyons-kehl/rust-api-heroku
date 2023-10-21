@@ -17,10 +17,3 @@ workflows:
   deploy:
     jobs:
       - deploy-app
-# jobs:
-#   deploy-app:
-#     steps:
-#       - checkout
-#       - run:
-#           name: Run Tests
-#           command: "cargo test"
